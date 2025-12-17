@@ -4,7 +4,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 public class TicketBookingSystem {
-    private  final Semaphore semaphore;
+    private final Semaphore semaphore;
 
     public TicketBookingSystem(int totalSeats) {
         this.semaphore = new Semaphore(totalSeats);
